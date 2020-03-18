@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    align-content: center;
 }
 
 .App-logo {
@@ -37,7 +38,11 @@
     }
 }
 
-h3 {
+h3, h4 {
     padding: 5px;
-  text-align: left;
+    text-align: left;
+}
+
+td {
+    border: 1px solid black;
 }
