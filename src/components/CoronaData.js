@@ -11,7 +11,7 @@ class CoronaData extends Component {
 
     componentDidMount() {
         console.log("Fetching...");
-        axios.get('http://hpb.health.gov.lk/api/get-current-statistical')
+        axios.get('https://hpb.health.gov.lk/api/get-current-statistical')
             .then(response =>
                 this.setCoronaDate(response.data.data)
             );
