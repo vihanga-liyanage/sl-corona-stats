@@ -33,7 +33,7 @@ class CoronaData extends Component {
             <div>
                 <h1>SL Corona Stats</h1>
                 <br/>
-                <table>
+                <table align="center">
                     <tbody>
                         <tr>
                             <td>
@@ -80,6 +80,8 @@ class CoronaData extends Component {
                     </tbody>
                 </table>
                 <h4>Updated: {this.state.timeDiff} minutes ago.</h4>
+                <br/>
+                <p>Looks ugly? Contributions are welcome! <a href="https://github.com/vihanga-liyanage/sl-corona-stats">Source</a></p>
             </div>
         );
     }
